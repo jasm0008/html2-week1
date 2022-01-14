@@ -105,4 +105,10 @@ main img{
 footer{
     padding:40px 10px;
     background-image:url("../images/nebula-back.jpg");
+    background-repeat: no-repeat;
+    /* background-size:contain; contain makes the entire background image visible inside the element */
+    background-size: cover;/* ensures the background image always covers the whole element */
+    background-position: 70%; /* two values will be horizontal position and vertical position */
+    /* background position can have top,bottom,left,right,center, or a fixed value*/
+    color: white;
 }
