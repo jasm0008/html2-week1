@@ -68,3 +68,8 @@ body{
 .larger{
     font-size:24px;
 }
+
+/* target only the paragraphs that are inside the main tag */
+main p{
+    color: red;
+}
