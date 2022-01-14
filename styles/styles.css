@@ -78,3 +78,31 @@ body{
 main p{
     color: red;
 }
+
+/* CSS box model includes margin, border, and padding:
+margin is outside the element and pushes other elements away from the element's edge
+border is in between the two */
+main{
+    background-color: cadetblue;
+    margin:10px; /* one value means apply to all sides */
+    padding:15px;
+    border: 2px solid black;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main img{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* add some padding to the footer so we can play with a background image */
+footer{
+    padding:40px 10px;
+    background-image:url("../images/nebula-back.jpg");
+}
