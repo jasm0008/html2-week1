@@ -56,8 +56,13 @@ html{
 }
 
 body{
-        line-height:1.6;  
-}
+        line-height:1.6;
+        width:800px;
+        /* two values on margin means top-bottom, left-right
+        the space between the two values means you are applying all the values */
+        margin: 0 auto; /* this will centre the site in the browser window */
+        background-color: blanchedalmond;
+    }
 
 /* to target and ID, use the # before the ID name */
 #reallyBig{
